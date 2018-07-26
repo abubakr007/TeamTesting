@@ -10,6 +10,7 @@ namespace TestWithAyman.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Name = "Ayman Mubarak";
             return View();
         }
 
